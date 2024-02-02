@@ -4,17 +4,27 @@
         <title>Artpath</title>
         <style>
             .logo {
-                width: 78px;
+                width: 64px;
                 background-color: rgb(160, 21, 21);
                 cursor: pointer;
+                margin-top: 5px;
+                transition: 0.20s;
+                margin-left: 6px;
+                border-radius: 6px;
+            }
+            .logo:hover {
+                opacity: 0.8;
+            }
+            .logo:active {
+                opacity: 0.6;
             }
             .head-section {
                 display: inline-block;
+                margin: 0px;
             }
             .company-name {
                 display: inline-block;
-                vertical-align: top;
-                margin-top: 10px;
+                vertical-align:top;
                 margin-left: 0px;
                 }
                 .name {
@@ -23,21 +33,90 @@
                     font-family: arial;
                     cursor: pointer;
                     transition:0.50s;
+                    background-color: gray;
                     font-weight: bold;
+                    margin-top: 5px;
+                    border-radius: 6px;
+
                 }
                 .name:hover {
-                    opacity: 0.2;
+                    opacity: 0.6;
                     color: white;
                 }
+                .name:active {
+                    opacity: 0.2;
+                }
                 .all-head {
-                    width:300px;
+                    width:1115px;
+                    height: 80px;
+                    background-color: black;
+                    border-radius: 8px;
+                }
+                .contact {
+                    font-size: 35px;
+                    font-family: Arial;
+                    display: inline-block;
+                    height: 71px;
+                    vertical-align: top;
+
+                }
+                .number {
+                    margin: 0px;
                     background-color: gray;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    color: rgb(255, 255, 255);
+                    border-radius: 25px;
+                    padding-left: 8px;
+                    padding-right: 8px;
                     
+                }
+
+                .call-icon {
+                    width: 40px;
+                    display: inline-block;
+                    margin-top: 20px;
+                    margin-left: 16px;
+                    
+                }
+                .call-icon-div {
+                    display: inline-block;
+                    vertical-align: top;
+                    height: 100px;
+                }
+                .email-div{
+                    display: inline-block;
+                }
+                .email-icon {
+                    width: 65px;
+                    margin-bottom: 3px;
+                    margin-left: 14px;
+                }
+                .email-text-div {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-top: 15px;
+                }
+                .email {
+                    font-family: arial;
+                    font-size: 25px;
+                    margin-top: 30px;
+                    font-weight: bold;
+                    background-color: gray;
+                    height: 40px;
+                    padding-top: 10px;
+                    margin: 0px;
+                    border-radius: 25px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    color: white;
+                
                 }
         </style>
     </head>
     <body>
         <div class="all-head">
+
         <div class="head-section">
                 <img src="Pictures/Screenshot__13_-removebg-preview.png" class="logo">
         </div>
@@ -47,7 +126,34 @@
                     Artpath
                 </p>
         </div>
+
+        <div class="call-icon-div">
+            <img src="Pictures/small_2x_phone.png" class="call-icon">
+        
+        
         </div>
+
+        <div class="contact">
+                <p class="number">8160477849</p>
+        </div>
+
+        <div class="email-div">
+            <img src="Pictures/icons8-email-64.png" class="email-icon">
+
+        </div>
+
+        <div class="email-text-div">
+            <p class="email">
+                BISWARANJANGCAC2@GMAIL.COM
+            </p>
+        </div>
+
+
+        </div>
+
+
+
+
 
     </body>
 </html>
