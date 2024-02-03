@@ -5,12 +5,16 @@
         <style>
             .logo {
                 width: 64px;
-                background-color: rgb(160, 21, 21);
+                background-color: gray;
                 cursor: pointer;
                 margin-top: 5px;
                 transition: 0.20s;
                 margin-left: 6px;
-                border-radius: 6px;
+                border-bottom-left-radius: 6px;
+                object-fit: cover;
+                border-top-left-radius: 6px;
+                h
+                
             }
             .logo:hover {
                 opacity: 0.8;
@@ -18,9 +22,10 @@
             .logo:active {
                 opacity: 0.6;
             }
+            
             .head-section {
-                display: inline-block;
                 margin: 0px;
+                display: inline-block;
             }
             .company-name {
                 display: inline-block;
@@ -33,10 +38,15 @@
                     font-family: arial;
                     cursor: pointer;
                     transition:0.50s;
-                    background-color: gray;
+                    background-color: rgb(167, 25, 25);
                     font-weight: bold;
                     margin-top: 5px;
-                    border-radius: 6px;
+                    border-top-left-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                    padding-left:3px ;
+                    padding-right: 3px;
+                    border-top-right-radius: 6px;
+                    border-bottom-right-radius: 6px;
 
                 }
                 .name:hover {
@@ -47,10 +57,11 @@
                     opacity: 0.2;
                 }
                 .all-head {
-                    width:1115px;
+                    width:1400px;
                     height: 80px;
                     background-color: black;
                     border-radius: 8px;
+                    padding-right: 6px;
                 }
                 .contact {
                     font-size: 35px;
@@ -112,19 +123,30 @@
                     color: white;
                 
                 }
+                .name-a {
+                    text-decoration: none;
+                    color: black;
+                }
         </style>
     </head>
     <body>
         <div class="all-head">
 
         <div class="head-section">
-                <img src="Pictures/Screenshot__13_-removebg-preview.png" class="logo">
-        </div>
+        
+<a href="https://artpath.site">
+        <img src="Pictures/Screenshot__13_-removebg-preview.png" class="logo">
+    </div>
+</a>
+
+
 
         <div class="company-name">
+            <a href="https://artpath.site/" class="name-a">
                 <p class="name">
                     Artpath
                 </p>
+            </a>
         </div>
 
         <div class="call-icon-div">
